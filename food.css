@@ -1,0 +1,445 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.bg-color {
+    background-color: #a5d4e6;
+}
+
+.nav-item .nav-link {
+    padding-right: 50px !important;
+    color: black;
+    font-size: 18px;
+}
+
+.nav-btn {
+    padding: 14px 20px !important;
+}
+
+.banner-pink {
+    border: 1px solid rgb(92, 90, 90);
+    width: 230px;
+    font-size: 18px;
+    padding: 4px 27px;
+    border-radius: 18px;
+    background-color: hsl(15deg 42% 91%);
+    color: red;
+    text-align: center;
+}
+
+.banner-cont h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+h1 .banner-red {
+    color: red;
+}
+
+.banner p {
+    font-size: 18px;
+}
+
+.banner-cont button {
+    padding: 13px 26px;
+}
+
+.play {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.fa-play {
+    position: absolute;
+    color: black;
+    top: 16px;
+    left: 20px
+}
+
+.banner img {
+    width: 100%;
+    height: 70vh;
+    object-fit: contain;
+}
+
+.food-card {
+    text-align: -webkit-center;
+}
+
+.transport-circle {
+    width: 120px;
+    height: 120px;
+    position: relative;
+    border-radius: 50%;
+    border: 1px solid crimson;
+    margin-top: 7%;
+    margin-bottom: 5%;
+    background-color: hsl(163deg 64% 95%);
+}
+
+.delivery {
+    width: 45%;
+    position: absolute;
+    top: 44px;
+    left: 36px;
+}
+
+.food-order {
+    width: 60%;
+    position: absolute;
+    top: 30px;
+    left: 26px;
+}
+
+.hours {
+    width: 45%;
+    position: absolute;
+    top: 31px;
+    left: 34px;
+}
+
+.feature p {
+    font-size: 16px;
+}
+
+.popular p {
+    font-size: 18px;
+}
+
+.bg-burger {
+    background-color: rgb(255 250 248);
+}
+
+.burger {
+    width: 100%;
+}
+
+.google-apple {
+    width: 60%;
+}
+
+.card-chicken {
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125) !important;
+    border-radius: 0.25rem;
+    min-height: 18rem;
+    box-shadow: 2px 1px 2px 1px rgb(0 0 0 / 20%);
+}
+
+.card-chicken img {
+    width: 70%;
+    padding: 5px 15px;
+    height: 38vh;
+}
+
+.card-chicken-body {
+    padding: 9px;
+}
+
+.card-chicken-body a {
+    text-decoration: none;
+}
+
+.food-delivery {
+    font-size: 15px !important;
+    margin-bottom: 2% !important;
+}
+
+.chef {
+    width: 50% !important;
+    height: 60vh
+}
+
+.card-customer {
+    border-radius: .25rem;
+    box-shadow: 2px 1px 2px 1px rgb(0 0 0 / 20%);
+    display: flex;
+    flex-direction: row !important;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    width: 18rem;
+}
+
+.customer {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.fa-star {
+    color: gold;
+}
+
+.bg-footer {
+    background-color: #f6ebec;
+}
+
+
+.brands {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    border: 1px solid;
+    border-radius: 50%;
+
+}
+
+.fa-facebook,
+.fa-instagram,
+.fa-twitter {
+    position: absolute;
+    top: 9px;
+    left: 10px;
+}
+
+@media screen and (max-width:360px) {
+
+    .nav-btn {
+        padding: 8px 14px !important;
+    }
+
+    .banner-cont h1 {
+        font-size: 25px;
+    }
+
+    .banner-cont button {
+        padding: 8px 12px;
+    }
+
+    .play {
+        width: 43px;
+        height: 43px;
+    }
+
+    .fa-play {
+        top: 13px;
+        left: 17px;
+    }
+
+    .banner img {
+        height: 38vh;
+    }
+
+    .transport-circle {
+        width: 90px;
+        height: 90px;
+    }
+
+    .food-order {
+        top: 24px;
+        left: 19px;
+    }
+
+    .delivery {
+        top: 32px;
+        left: 28px;
+    }
+
+    .hours {
+        top: 24px;
+        left: 26px;
+    }
+
+    .card-chicken img {
+        height: 25vh;
+    }
+
+    .google-apple {
+        width: 50%;
+    }
+
+    .chef {
+        height: 30vh;
+    }
+
+    .customer-cont {
+        text-align: -webkit-center;
+    }
+
+    .card-customer {
+        width: 16rem;
+    }
+
+}
+
+@media screen and (min-width:361px) and (max-width:600px) {
+
+    .banner-cont h1 {
+        font-size: 30px;
+    }
+
+    .nav-btn {
+        padding: 5px 15px !important;
+    }
+
+    .banner img {
+        height: 35vh;
+    }
+
+    .burger {
+        width: 66%;
+    }
+
+    .card-chicken img {
+        width: 66%;
+        height: 30vh;
+    }
+
+    .customer-cont {
+        text-align: -webkit-center;
+    }
+
+    .chef {
+        height: 35vh;
+    }
+
+    .google-apple {
+        width: 45%;
+    }
+
+}
+
+@media screen and (min-width:601px) and (max-width:767px) {
+
+    .nav-btn {
+        padding: 6px 15px !important;
+    }
+
+    .banner-cont h1 {
+        font-size: 32px;
+    }
+
+    .transport-circle {
+        width: 95px;
+        height: 95px;
+    }
+
+    .food-order {
+        top: 24px;
+        left: 22px;
+    }
+
+    .delivery {
+        top: 35px;
+        left: 29px;
+    }
+
+    .hours {
+        top: 23px;
+        left: 28px;
+    }
+
+    .burger {
+        width: 60%;
+    }
+
+    .card-chicken img {
+        width: 50%;
+        object-fit: contain;
+    }
+
+    .chef {
+        height: 70vh;
+    }
+
+    .google-apple {
+        width: 30%;
+    }
+}
+
+@media screen and (min-width:681px) and (max-width:767px) {
+
+    .nav-btn {
+        padding: 8px 20px !important;
+    }
+
+    .banner img {
+        height: 35vh;
+
+    }
+
+    .banner-cont h1 {
+        font-size: 38px;
+    }
+
+    .burger {
+        width: 55%;
+    }
+
+    .google-apple {
+        width: 40%;
+    }
+
+    .card-chicken img {
+        width: 80%;
+        height: 20vh;
+    }
+
+    .chef {
+        height: 30vh;
+    }
+
+    .customer-support {
+        text-align: -webkit-center;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+
+    .nav-btn {
+        padding: 10px 15px !important;
+    }
+
+    .banner-cont h1 {
+        font-size: 40px;
+    }
+
+    .banner img {
+        height: 28vh;
+    }
+
+    .food-card {
+        height: 25vh;
+    }
+
+    .burger {
+        width: 60%;
+    }
+
+    .google-apple {
+        width: 30%;
+    }
+
+    .card-chicken img {
+        height: 15vh;
+    }
+
+    .card-chicken-body {
+        padding: 5px !important;
+    }
+
+    .card-chicken {
+        height: 18vh;
+    }
+
+    .chef {
+        width: 45% !important;
+        height: 22vh;
+    }
+
+    .fa-star {
+        font-size: 9px;
+    }
+
+}
+
+@media screen and (min-width:992px) and (max-width:1024px) {}
